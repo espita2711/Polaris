@@ -27,7 +27,6 @@ h1, h2, h3, h4 {
     letter-spacing: 0;
 }
 
-/* Navbar */
 .navbar {
     background-color: var(--cream) !important;
     padding: 2rem 0;
@@ -54,7 +53,6 @@ h1, h2, h3, h4 {
     border-bottom: none;
 }
 
-/* Hero Parallax */
 .hero-parallax {
     min-height: 55vh;
     background-attachment: scroll;
@@ -89,7 +87,6 @@ h1, h2, h3, h4 {
     color: var(--chocolate-dark);
 }
 
-/* Section Titles */
 .section-title {
     font-family: 'DM Sans', sans-serif;
     font-size: clamp(1.5rem, 2.5vw, 2.2rem);
@@ -104,7 +101,6 @@ h1, h2, h3, h4 {
     display: none;
 }
 
-/* Scroll Reveal */
 .reveal {
     opacity: 0;
     transform: translateY(28px);
@@ -116,7 +112,6 @@ h1, h2, h3, h4 {
     transform: translateY(0);
 }
 
-/* Image Box */
 .img-box {
     background-color: var(--cream-dark);
     padding: 0;
@@ -131,7 +126,6 @@ h1, h2, h3, h4 {
     box-shadow: none;
 }
 
-/* Cards */
 .polaris-card {
     background: var(--cream);
     border: 1px solid var(--border);
@@ -174,7 +168,6 @@ h1, h2, h3, h4 {
     border-radius: 0;
 }
 
-/* Quiz Styles */
 #quiz-wrapper {
     background: var(--cream);
     border: 1px solid var(--border);
@@ -313,13 +306,11 @@ h1, h2, h3, h4 {
     background: var(--cream-dark);
 }
 
-/* Skill section color accents */
 .skill-technical { border-left: none; }
 .skill-creative   { border-left: none; }
 .skill-management { border-left: none; }
 .skill-analytical { border-left: none; }
 
-/* Footer */
 footer {
     background-color: var(--chocolate-dark);
     color: var(--brown-accent);
@@ -327,7 +318,6 @@ footer {
     letter-spacing: 0;
 }
 
-/* Divider */
 .gold-divider {
     border: none;
     height: 1px;
