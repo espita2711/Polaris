@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // 1. Active Navigation Link
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     document.querySelectorAll('.nav-link').forEach(link => {
         const href = link.getAttribute('href');
@@ -11,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // 2. Scroll Reveal Animation
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) entry.target.classList.add('visible');
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-    // 3. Quiz Logic
     const questions = [
         { question: "Which activity do you enjoy the most?", options: { 1: ["Programming", "technical"], 2: ["Designing graphics", "creative"], 3: ["Managing a team", "management"], 4: ["Analyzing data", "analytical"] } },
         { question: "What do you usually do in your free time?", options: { 1: ["Build technical projects", "technical"], 2: ["Draw or design", "creative"], 3: ["Plan and organize tasks", "management"], 4: ["Solve puzzles", "analytical"] } },
@@ -60,13 +57,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const quizBtn = document.getElementById('quiz-btn');
     const quizWrapper = document.getElementById('quiz-wrapper');
 
-    if (!quizBtn) return; // not on index page
-
-    quizBtn.addEventListener('click', function () {
-        quizBtn.style.display = 'none';
-        quizWrapper.classList.remove('d-none');
-        render();
-    });
+    if (quizBtn && quizWrapper) {
+        quizBtn.addEventListener('click', function () {
+            quizBtn.style.display = 'none';
+            quizWrapper.classList.remove('d-none');
+            render();
+        });
+    }
 
     function updateProgress() {
         const pct = (current / questions.length) * 100;
