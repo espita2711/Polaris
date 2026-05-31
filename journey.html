@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey | Polaris</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link href="main.css" rel="stylesheet">
+    <style>
+        .journey-section-hero {
+            min-height: 38vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .journey-section-hero .overlay {
+            position: absolute; inset: 0;
+        }
+        .journey-section-hero .container { position: relative; z-index: 2; }
+        .type-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 4px 14px;
+            border-radius: 2px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Polaris logo" class="img-fluid">
+            </a>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="journey.html">My Journey</a>
+                <a class="nav-link" href="resources.html">Skills Hub</a>
+                <a class="nav-link" href="Opportunities.html">Opportunities</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <div class="container py-5 text-center">
+        <h1 class="section-title" style="display:inline-block;">Your Journey Starts Here</h1>
+        <p style="max-width:580px;margin:0 auto;color:#8D6E63;">Based on your quiz result, explore the section that matches your skill type. Each path reveals who you are, how you learn, and where you can go.</p>
+        <div class="mt-4" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+            <a href="#technical" style="text-decoration:none;"><span class="skill-badge" style="background:#F5F0E8;border-color:#D7CCC8;color:#5D4037;padding:6px 16px;font-size:0.82rem;">Technical</span></a>
+            <a href="#creative" style="text-decoration:none;"><span class="skill-badge" style="background:#F5F0E8;border-color:#D7CCC8;color:#5D4037;padding:6px 16px;font-size:0.82rem;">Creative</span></a>
+            <a href="#management" style="text-decoration:none;"><span class="skill-badge" style="background:#F5F0E8;border-color:#D7CCC8;color:#5D4037;padding:6px 16px;font-size:0.82rem;">Management</span></a>
+            <a href="#analytical" style="text-decoration:none;"><span class="skill-badge" style="background:#F5F0E8;border-color:#D7CCC8;color:#5D4037;padding:6px 16px;font-size:0.82rem;">Analytical</span></a>
+        </div>
+    </div>
+
+    <hr class="gold-divider" style="margin:0 3rem 0;">
+
+    <!-- TECHNICAL -->
+    <section id="technical" class="journey-section-hero" style="background:#F0F4FF;border-color:#E0E0E0;color:#2C7BE5;padding:6px 16px;">
+        <div class="container text-center py-5">
+            <h1 class="display-2">Technical</h1>
+            <p style="opacity:0.7;font-size:1rem;">The Builder · The Systems Thinker</p>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-7 reveal">
+                <h3 class="section-title">Strong Technical Aptitude</h3>
+                <p>Your quiz result reveals a strong technical profile. You are energized by systems, tools, and hands-on problem solving. You learn most effectively when you can build, test, and refine real solutions rather than only studying theory.</p>
+                <p>You have the kind of logical focus that helps you understand how things work under the surface. When a challenge appears, you instinctively look for practical methods, efficient processes, and reliable results.</p>
+                <div class="mt-4 mb-3">
+                    <p style="font-size:0.82rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--brown-light);margin-bottom:0.5rem;">Suggested Careers</p>
+                    <span class="skill-badge">Software Developer</span>
+                    <span class="skill-badge">Engineer</span>
+                    <span class="skill-badge">Systems Architect</span>
+                    <span class="skill-badge">DevOps</span>
+                    <span class="skill-badge">Cybersecurity Analyst</span>
+                </div>
+                <p><strong>Next Steps:</strong> In the Opportunities section, seek experiences that help you sharpen programming, engineering, and system-design skills. Track your technical milestones, completed projects, and growing proficiency in tools and workflows in the Skills Hub.</p>
+                <a href="Opportunities.html#technical" class="go-btn" style="display:inline-block;background:#2C7BE5;color:white;padding:0.65rem 1.5rem;text-decoration:none;font-weight:600;font-size:0.88rem;letter-spacing:0;text-transform:capitalize;border-radius:0;margin-top:0.5rem;transition:background 0.2s;">View My Opportunities →</a>
+            </div>
+            <div class="col-md-5 reveal">
+                <div class="img-box" style="">
+                    <img src="Technical skill image.jpg" alt="Technical skill image" class="img-fluid rounded" style="min-height:250px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="gold-divider">
+
+    <!-- CREATIVE -->
+    <section id="creative" class="journey-section-hero" style="background:#FFF4F0;border-color:#E0E0E0;color:#E5722C;padding:6px 16px;">
+        <div class="container text-center py-5">
+            <h1 class="display-2">Creative</h1>
+            <p style="opacity:0.7;font-size:1rem;">The Creator · The Visual Thinker</p>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="row align-items-center flex-md-row-reverse">
+            <div class="col-md-7 reveal">
+                <h3 class="section-title">Creative Insight</h3>
+                <p>Your result points to a strong creative mindset. You thrive when you can express ideas visually, experiment with design, and turn imagination into something tangible. Your strengths often show up in how you solve problems with originality and aesthetic sense.</p>
+                <p>You likely absorb new concepts best through visuals, storytelling, and exploration. You enjoy projects where the outcome depends on your ability to make things look appealing and resonate with people.</p>
+                <div class="mt-4 mb-3">
+                    <p style="font-size:0.82rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--brown-light);margin-bottom:0.5rem;">Suggested Careers</p>
+                    <span class="skill-badge">Graphic Designer</span>
+                    <span class="skill-badge">UI/UX Designer</span>
+                    <span class="skill-badge">Content Creator</span>
+                    <span class="skill-badge">Art Director</span>
+                    <span class="skill-badge">Animator</span>
+                </div>
+                <p><strong>Next Steps:</strong> In the Opportunities section, pursue activities that grow your creative tools, visual thinking, and design experience. Track your portfolio pieces and hours spent learning new creative techniques in the Skills Hub.</p>
+                <a href="Opportunities.html#creative" class="go-btn" style="display:inline-block;background:#2C7BE5;color:white;padding:0.65rem 1.5rem;text-decoration:none;font-weight:600;font-size:0.88rem;letter-spacing:0;text-transform:capitalize;border-radius:0;margin-top:0.5rem;">View My Opportunities →</a>
+            </div>
+            <div class="col-md-5 reveal">
+                <div class="img-box" style="">
+                    <img src="Creative skill image.jpg" alt="Creative skill image" class="img-fluid rounded" style="min-height:250px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="gold-divider">
+
+    <!-- MANAGEMENT -->
+    <section id="management" class="journey-section-hero" style="background:#F0FFF7;border-color:#E0E0E0;color:#2CB55E;padding:6px 16px;">
+        <div class="container text-center py-5">
+            <h1 class="display-2">Management</h1>
+            <p style="opacity:0.7;font-size:1rem;">The Leader · The Organizer</p>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-7 reveal">
+                <h3 class="section-title">Leadership and Structure</h3>
+                <p>Your quiz outcome suggests strong management and leadership strengths. You are comfortable organizing people, planning actions, and keeping projects on track. You pay attention to both details and the bigger picture when guiding a team.</p>
+                <p>You often make decisions by balancing goals, resources, and timing. This means you are suited to roles where coordination, communication, and follow-through matter as much as the final result.</p>
+                <div class="mt-4 mb-3">
+                    <p style="font-size:0.82rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--brown-light);margin-bottom:0.5rem;">Suggested Careers</p>
+                    <span class="skill-badge">Project Manager</span>
+                    <span class="skill-badge">Business Manager</span>
+                    <span class="skill-badge">Entrepreneur</span>
+                    <span class="skill-badge">Operations Lead</span>
+                    <span class="skill-badge">Product Manager</span>
+                </div>
+                <p><strong>Next Steps:</strong> In the Opportunities section, focus on experiences that grow your planning, teamwork, and leadership skills. Record your completed plans, team successes, and progress in the Skills Hub.</p>
+                <a href="Opportunities.html#management" class="go-btn" style="display:inline-block;background:#2C7BE5;color:white;padding:0.65rem 1.5rem;text-decoration:none;font-weight:600;font-size:0.88rem;letter-spacing:0;text-transform:capitalize;border-radius:0;margin-top:0.5rem;">View My Opportunities →</a>
+            </div>
+            <div class="col-md-5 reveal">
+                <div class="img-box" style="">
+                    <img src="" alt="Management skill image" class="img-fluid rounded" style="min-height:250px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="gold-divider">
+
+    <!-- ANALYTICAL -->
+    <section id="analytical" class="journey-section-hero" style="background:#F4F0FF;border-color:#E0E0E0;color:#8B2CE5;padding:6px 16px;">
+        <div class="container text-center py-5">
+            <h1 class="display-2">Analytical</h1>
+            <p style="opacity:0.7;font-size:1rem;">The Thinker · The Problem Solver</p>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="row align-items-center flex-md-row-reverse">
+            <div class="col-md-7 reveal">
+                <h3 class="section-title">Analytical Strength</h3>
+                <p>Your quiz result shows a strong analytical approach. You are drawn to tasks that require careful thinking, evidence, and structured analysis. You excel at understanding data, spotting patterns, and making decisions based on logic.</p>
+                <p>You learn best when you can test ideas, review information, and make thoughtful conclusions. Your strength is in turning complex problems into clear, manageable steps.</p>
+                <div class="mt-4 mb-3">
+                    <p style="font-size:0.82rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--brown-light);margin-bottom:0.5rem;">Suggested Careers</p>
+                    <span class="skill-badge">Data Analyst</span>
+                    <span class="skill-badge">Researcher</span>
+                    <span class="skill-badge">Financial Analyst</span>
+                    <span class="skill-badge">Scientist</span>
+                    <span class="skill-badge">Statistician</span>
+                </div>
+                <p><strong>Next Steps:</strong> In the Opportunities section, seek experiences that sharpen your data skills, research methods, and critical thinking. Track your completed analyses and research outcomes in the Skills Hub.</p>
+                <a href="Opportunities.html#analytical" class="go-btn" style="display:inline-block;background:#2C7BE5;color:white;padding:0.65rem 1.5rem;text-decoration:none;font-weight:600;font-size:0.88rem;letter-spacing:0;text-transform:capitalize;border-radius:0;margin-top:0.5rem;">View My Opportunities →</a>
+            </div>
+            <div class="col-md-5 reveal">
+                <div class="img-box" style="">
+                    <img src="" alt="Analytical skill image" class="img-fluid rounded" style="min-height:250px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2026 Polaris &mdash; Hack your life!</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Scroll to hash anchor smoothly on page load
+        window.addEventListener('load', function() {
+            const hash = window.location.hash;
+            if (hash) {
+                setTimeout(function() {
+                    const target = document.querySelector(hash);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }, 300);
+            }
+        });
+    </script>
+</body>
+</html>
